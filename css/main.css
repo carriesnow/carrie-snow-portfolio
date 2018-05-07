@@ -1,0 +1,280 @@
+/****** BASE STYLES ******/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #092b36;
+	background-color: #fafaf9;
+}
+
+.section-head {
+	height: 80px;
+	text-align: center;
+	color: #092b36;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+
+#skills, #about, #contact{
+    height: 400px;
+}
+
+#portfolio {
+	height: 800px;
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.half-width {
+	width: 600px;
+	float:left;
+	
+}
+
+.third-width {
+	width: 400px;
+	float:left;
+	
+}
+
+.logo-width {
+	width: 300px;
+	float:left;
+}
+
+.nav-width {
+	width: 800px;
+	float:left;
+	margin-left: 100px;
+	margin-right: 0px;
+}
+
+
+/****** HEADER ******/
+
+
+#logo {
+	width: 480px;
+	padding-top: 42px;
+}
+
+nav {
+    float: right; 
+    padding: 68px;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    color: #092b36;
+    padding-left: 40px;
+}
+
+
+header {
+	background: url('../img/herolight.jpg') no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+
+#intro h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #092b36;
+	text-align: center;
+	line-height: 1.8;
+}
+
+.accent {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: #ff3366;
+}
+
+#intro h3 {
+	font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	color: #ff3366;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #092b36;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#intro ul {
+    list-style: none;
+    padding-left: 130px;
+    margin-top: 40px;
+
+}
+
+#intro ul li {
+     display: inline-block;
+}
+
+#intro ul img {
+    padding-right: 30px;
+
+
+}
+
+.social img{
+	width: 50%;
+}
+
+/****** SKILLS ******/
+
+
+#skills {
+	background-color: #ffefea;
+	text-align: center;
+
+}
+
+#skills h3 {
+	font-size: 20px;
+	color: #092b36 ;
+	text-transform: uppercase;
+
+}
+
+#skills, #portfolio p {
+	font-size: 18px;
+	color: #092b36 ;
+	font-family: 'Domine', serif;
+}
+
+#skills .full-width {
+    padding: 70px 0;
+
+}
+
+/****** PORTFOLIO ******/
+
+#portfolio {
+	background-color: #dedede;
+	text-align: center;
+
+}
+
+#portfolio h2 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #092b36 ;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+
+
+#portfolio .full-width {
+    padding-top: 65px;
+}
+
+#portfolio img{
+	width: 550px;
+	position: relative;
+	border: 6px solid #fafaf9;
+
+}
+
+
+/****** ABOUT ******/
+
+#about img {
+	width: 80%;
+    border: 6px solid #fafaf9;
+}
+
+#about {
+	background-color: #ffefea;
+	text-align: left;
+	
+}
+
+#about h3 {
+	font-size: 20px;
+	font-weight: lighter;
+	color: #092b36;
+}
+
+#about .full-width {
+    padding: 45px 0;
+
+}
+
+
+
+
+
+/****** CONTACT ******/
+
+#contact {
+	text-align: center;
+	background-color: #dedede;
+}
+
+#contact h3 {
+	font-size: 25px;
+	font-family: 'Domine', serif;
+	color: #092b36;
+}
+
+#drop {
+	font-family: 'Satisfy', cursive;
+	font-size: 45px;
+	color: #ff3366;
+	margin-bottom: 0px;
+}
+
+#contact .full-width {
+    padding: 20px 0;
+
+}
+
+#contact ul {
+    list-style: none;
+
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 30px;
+    width: 50%;
+
+}
+
+#contact a {
+	text-decoration: none;
+	color: #092b36;
+
+}
